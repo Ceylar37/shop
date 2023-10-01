@@ -1,0 +1,35 @@
+{
+  "name": "shop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "prisma generate && next build && next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.3.1",
+    "@uidotdev/usehooks": "^2.3.1",
+    "antd": "^5.9.4",
+    "jsonwebtoken": "^9.0.2",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-query": "^3.39.3",
+    "ts-pattern": "^5.0.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/uuid": "^9.0.4",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "prettier": "^3.0.3",
+    "prisma": "^5.3.1",
+    "typescript": "latest"
+  }
+}
